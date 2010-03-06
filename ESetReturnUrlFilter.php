@@ -1,6 +1,6 @@
 <?php
 /**
-* SetReturnUrlFilter
+* SetReturnUrl Filter
 *
 * Позволяет сохранять текущий url в сессии для всех или выборочных действий
 * контроллера, чтобы затем к нему вернуться.
@@ -9,7 +9,7 @@
 * @author creocoder <creocoder@gmail.com>
 */
 
-class CSetReturnUrlFilter extends CFilter
+class ESetReturnUrlFilter extends CFilter
 {
 	protected function preFilter($filterChain)
 	{
