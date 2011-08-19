@@ -10,6 +10,7 @@ Installing and configuring
 Unpack into your application `extensions` directory.
 
 Configure application (`config/main.php`):
+
 ~~~
 [php]
 return array(
@@ -22,6 +23,7 @@ return array(
 ~~~
 
 In controller implement `filters()` method:
+
 ~~~
 [php]
 function filters() {
